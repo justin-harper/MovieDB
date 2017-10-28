@@ -273,8 +273,6 @@ namespace MovieDB
 
         private Movie GetMovieByTitle(Node current, string title)
         {
-            int i = 0;
-
             if (current == null)
             {
                 return null;
